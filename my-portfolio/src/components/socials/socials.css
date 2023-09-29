@@ -1,0 +1,27 @@
+/* Existing styles for hero and hero-content */
+
+.hero-icons {
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+    margin-top: 20px;
+    padding-right: 20px; /* Add some padding for spacing */
+    position: relative;
+  }
+  
+  .hero-icons i {
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero-content {
+      flex-direction: column;
+    }
+  
+    .hero-icons {
+      justify-content: center; /* Center on smaller screens */
+      margin-top: 10px;
+      padding-right: 0; /* Reset padding */
+    }
+  }
+  

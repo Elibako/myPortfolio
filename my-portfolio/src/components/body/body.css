@@ -1,0 +1,125 @@
+body {
+  font-family: "Poppins", sans-serif ,ff-tisa-sans-web-pro;
+  font-size: 1em;
+  overflow-x: hidden; /* Add this line to prevent horizontal overflow */
+
+}
+
+.hero {
+  /* background-color: #fff; */
+  padding: 60px 0;
+  margin-top: 8%;
+  margin: 0 auto;
+}
+
+.typewriter-text{
+  color: #0099FF;
+  font-size: 40px;
+  font-weight: bold;
+}
+.hero-content {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.text {
+  text-align: left;
+  padding: 40px;
+  margin-left: 3%;
+}
+
+.text h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.text p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.text button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.image {
+  display: flex;
+  justify-content: center; /* Center the image */
+  height: 100%;
+  width: 100%;
+}
+
+.image img {
+  max-width: 60%;
+  height: auto;
+  margin: 0 20%;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .text {
+    text-align: left;
+    flex: 1;
+  }
+
+  .image {
+    flex: 1;
+    justify-content: flex-end; /* Align image to the right */
+  }
+}
+
+/* Styles for hero-icons */
+.hero-icons {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  margin-top: 20px;
+  padding-right: 20px; /* Add some padding for spacing */
+}
+
+.hero-icons i {
+  font-size: 24px;
+  margin: 0 10px;
+  padding: 10px 0;
+}
+
+.hero-icons i a {
+  color: black;
+}
+
+.hero-icons i a:hover {
+  color: #007bff;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+  }
+
+  .hero-icons {
+    margin-top: 10px;
+    padding-right: 0; /* Reset padding */
+    flex-direction: row;
+  }
+  .typewriter-text {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+  body {
+    overflow-x: hidden; /* Hide horizontal overflow */
+ }
+}

@@ -1,0 +1,97 @@
+body{
+  overflow-x: hidden; /* Add this line to prevent horizontal overflow */
+
+}
+.services {
+  /* background-color: #fff; */
+  padding: 60px 0;
+  text-align: center;
+  margin: 0 20px; /* Adjust the margin for smaller screens */
+}
+
+.services h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px;
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(231, 225, 225);
+}
+
+.service-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.service-card h3 {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.service-text{
+  margin: 0 20% 0 10%;
+  text-align: left;
+}
+.service-card p {
+  font-size: 16px;
+  margin: 0 20px 20px;
+  
+}
+/* Add your existing styles above */
+
+/* Hover effect for service cards */
+.service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; 
+  /* Add transitions */
+}
+
+.service-card:hover {
+  cursor: pointer;
+  transform: scale(1.05); /* Scale up the card on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow on hover */
+  background-color: #0099FF; /* Background color on hover */
+  color:#fff;
+
+}
+
+/* Styles for the service card icons */
+.service-card .service-icon {
+  font-size: 36px;
+  color: #0099FF; /* Default icon color */
+  transition: color 0.3s ease; /* Add a color transition */
+}
+
+/* Change the icon color on hover */
+.service-card:hover .service-icon {
+  color: #fff; /* New icon color on hover */
+}
+
+/* Add your existing styles below */
+
+
+@media screen and (max-width: 768px) {
+  .service-card {
+    width: calc(50% - 40px); /* Adjust for spacing */
+  }
+  .services {
+    text-align: center;
+    padding: 30px 0; /* Adjust padding for smaller screens */
+  }
+}
