@@ -19,14 +19,8 @@ const App = () => {
       <ServiceSection/>
       <Works/>
       <ParticleBg/>
-      
-      {/* <Socials/> */}
-      {/* <Skills/> */}
-      {/* <AboutMe/> */}
       <Contactme/>
-            <Footer/>
-
-     
+       <Footer/>
     </div>
    </BrowserRouter>
   )

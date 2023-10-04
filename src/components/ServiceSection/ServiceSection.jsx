@@ -1,6 +1,6 @@
 import React from 'react';
 import './ServiceSection.css';
-import { FaCode, FaPalette, FaDesktop, FaReact, FaCss3, FaHtml5 } from 'react-icons/fa';
+import { FaCode, FaPalette, FaDesktop, FaReact, FaCss3, FaHtml5, FaGithub, FaGithubAlt } from 'react-icons/fa';
 import AOS from 'aos'
 
 
@@ -11,10 +11,9 @@ const ServiceSection = () => {
         <p>Introduction</p>
         <h2 style={{ color: '#0099FF' }}>Overview </h2>
         <p>
-          I'm a skilled software developer with experience in TypeScript and JavaScript, and also experienced in
-          frameworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to
-          create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together
-          to bring your ideas to life!
+        I'm a versatile professional skilled in both UI/UX design and software engineering. With expertise in tools like Sketch, Figma, and Adobe XD, I create visually appealing and intuitive interfaces. I'm proficient in JavaScript, React, HTML and CSS, ensuring seamless integration of designs into robust software solutions.
+
+I collaborate closely with clients to deliver user-friendly applications that solve real-world problems. My unique ability to merge design creativity with technical expertise ensures a cohesive and impactful user experience. Let's work together to bring your ideas to life efficiently and beautifully.
         </p>
       </div>
       <div className="service-cards">
@@ -25,12 +24,12 @@ const ServiceSection = () => {
         </div>
         <div className="service-card"data-aos="fade-down">
           <FaPalette className="service-icon" />
-          <h3>UI/UX Designer</h3>
+          <h3>UI/UX </h3>
           {/* Add your description here */}
         </div>
         <div className="service-card" data-aos="fade-right">
-          <FaDesktop className="service-icon" />
-          <h3>IT Specialist</h3>
+          <FaGithubAlt className="service-icon" />
+          <h3>Git</h3>
           {/* Add your description here */}
         </div>
         <div className="service-card"data-aos="fade-left">

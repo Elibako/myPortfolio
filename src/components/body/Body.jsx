@@ -47,7 +47,7 @@ const body = () => {
               {/* <h4>Let's Connect</h4> */}
         <i className="github" ><a href="https://github.com/Elibako" target="_blank"><BsGithub/> </a></i>
         <i className="linkedin"><a href="https://www.linkedin.com/in/elisha-bako-553832179/" target="_blank"> <BsLinkedin/></a></i>
-        <i className="instagram"> <a href=""><BsInstagram/> </a></i>
+        <i className="instagram"> <a href="https://instagram.com/sirius6laq?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><BsInstagram/> </a></i>
         <i className="twitter"> <a href="https://twitter.com/Sirius6laq" target="_blank"> <BsTwitter/> </a></i>
       </div>
             </div>

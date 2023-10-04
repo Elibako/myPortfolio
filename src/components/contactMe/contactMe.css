@@ -50,6 +50,7 @@
     border-radius: 5px;
     font-size: 16px;
     box-sizing: border-box; /* Add this property */
+    
   }
   
   /* Textarea style */
@@ -80,6 +81,7 @@
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.3s ease; }
     button:hover{
       background-color: #0056b3;

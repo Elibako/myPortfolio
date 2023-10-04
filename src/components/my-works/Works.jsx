@@ -7,17 +7,24 @@ const Works = () => {
       {
         image: 'Frame 3.png',
         title: 'Tasty Nosh',
-        description: 'Description of Project 1',
+        description: 'Connecting food enthusiasts with top chefs – your direct link to culinary excellence!',
+        buttonText:'View Tasty Nosh',
+        buttonLink:'https://www.figma.com/file/Ec94ySHSeHC2FnypWgLyEW/Tasty-Nosh?type=design&node-id=6-2174&mode=design&t=YUYwbqi2VkkCH8VY-0',
       },
       {
         image: 'Dashboard.png',
-        title: 'Project 2',
-        description: 'Description of Project 2',
+        title: 'Host X',
+        description: 'Streamline projects with our intuitive app: seamless collaboration, effortless organization',
+        buttonText:'View Host X',
+        buttonLink:'https://www.figma.com/file/2P3vgeeSu4WW6m7Nta5kjN/Host-X?type=design&node-id=48-2&mode=design&t=SA89d8GcaOX3UqN0-0',
       },
       {
-        image: 'Splash screen 22.png',
-        title: 'Project 3',
-        description: 'Description of Project 3',
+        image: 'Landing Page 2.png',
+        title: ' Green Express',
+        description: 'Sustainable waste solutions for a greener planet.',
+        buttonText:'View Green Express',
+        buttonLink:'https://www.figma.com/file/H8oyhK9cRg15ptk24v1xyj/Green-express?type=design&node-id=76-4&mode=design&t=so6U818WuGLOGI7p-0',
+       
       },
       // {
       //   image: 'Frame 3.png',
@@ -45,7 +52,7 @@ const Works = () => {
               </h1>
               Following projects showcases my skills and experience through 
           real-world examples of my work. Each project is briefly described with links 
-          to code repositories and live demos in it.  It reflects my ability to solve 
+          to design boards and live demos in it.  It reflects my ability to solve 
           complex problems, work with different  technologies, and manage projects effectively.</p>
         </div>
         <div className="container" data-Aos="fade-right">
@@ -58,7 +65,9 @@ const Works = () => {
                 <img src={work.image} alt={work.title} />
                 <h3>{work.title}</h3>
                 <p>{work.description}</p>
-                <button className="view-button">View</button>
+                <a href={work.buttonLink} target="_blank" rel="noopener noreferrer">
+              <button className="view-button">{work.buttonText}</button>
+            </a>
               </div>
             ))}
           </div>

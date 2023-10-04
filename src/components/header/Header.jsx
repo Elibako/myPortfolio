@@ -1,7 +1,7 @@
 import {useEffect, useState } from 'react'
 import './header.css'
 import { BsTwitter, BsInstagram,BsLinkedin, BsGithub} from "react-icons/bs"
-import { scrollToSection } from '../../../scroll/scrollToSection'
+// import { scrollToSection } from '../../../scroll/scrollToSection'
 
 
 const Header = () => {
@@ -29,9 +29,9 @@ const Header = () => {
     setNavActive(!navActive);
   };
 
-  const handleNavLinkClick = (sectionId) => {
-    scrollToSection(sectionId);
-  };
+  // const handleNavLinkClick = (sectionId) => {
+  //   scrollToSection(sectionId);
+  // };
 
   return (
     <div className="App">

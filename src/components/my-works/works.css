@@ -74,10 +74,12 @@
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 5px;
   }
   .view-button:hover{
     background-color: #0056b3;
   transform: translateY(-3px);
+  
   }
   
 /* Adjustments for smaller screens */

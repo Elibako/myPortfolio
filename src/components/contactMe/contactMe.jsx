@@ -10,7 +10,7 @@ const ContactMe = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('(service_c2lr36', 'template_nywut4s', form.current, 'MXMlKFelli1kh1EPL')
+    emailjs.sendForm('service_c2lr36l', 'template_nywut4s', form.current, 'MXMlKFelli1kh1EPL')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
