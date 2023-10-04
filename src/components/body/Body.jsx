@@ -42,7 +42,7 @@ const body = () => {
         </div>
               {/* <p>A freelance <span>UI/UX designer</span>,web developer and a big fan of good music</p> */}
               <p>Welcome to my portfolio! I am passionate about creating captivating user experiences and crafting innovative web solutions. With a keen eye for design and a dedication to excellence, I aim to bring your ideas to life.</p>
-              <button >Get in touch</button>
+              <a href="https://wa.link/vjg4y6" target="_blank">  <button >Get in touch</button></a>
                <div className="hero-icons">
               {/* <h4>Let's Connect</h4> */}
         <i className="github" ><a href="https://github.com/Elibako" target="_blank"><BsGithub/> </a></i>

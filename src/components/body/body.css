@@ -2,7 +2,7 @@ body {
   font-family: "Poppins", sans-serif ,ff-tisa-sans-web-pro;
   font-size: 1em;
   overflow-x: hidden; /* Add this line to prevent horizontal overflow */
-
+  box-sizing: border-box;
 }
 
 .hero {

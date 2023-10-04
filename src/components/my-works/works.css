@@ -57,12 +57,12 @@
     transition: transform 0.3s ease-in-out;
   }
   
-  .work-item:hover {
+  /* .work-item:hover {
     transform: translateY(-10px);  
     background-color: #fff; 
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
-  }
+  } */
   
   .work-item:hover .view-button {
     opacity: 1;
